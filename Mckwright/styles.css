@@ -82,4 +82,17 @@ li:last-child {
     color: #28a745;
 }
 
+.container {
+    display: flex;
+    justify-content: flex-end; /* Shift the image to the right */
+    padding: 20px; /* Add some spacing */
+}
 
+.square-image {
+    width: 200px; /* Set the width of the square */
+    height: 200px; /* Set the height of the square */
+    object-fit: cover; /* Ensure the image covers the square without distortion */
+    border: 2px solid #ccc; /* Optional: Add a border */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+}
