@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-     /
+    display:flex;
 }
 
 .container {
@@ -82,16 +82,4 @@ li:last-child {
     color: #28a745;
 }
 
-image-container {
-    width: 300px; /* Adjust the width of the container */
-    height: 300px; /* Adjust the height of the container */
-    overflow: hidden; /* Ensure the image stays within the square */
-    border: 2px solid #ccc; /* Optional: Add a border */
-    border-radius: 10px; /* Optional: Add rounded corners */
-}
 
-.square-image {
-    width: 100%; /* Make the image fill the container */
-    height: 100%; /* Make the image fill the container */
-    object-fit: cover; /* Ensure the image covers the square without distortion */
-}
